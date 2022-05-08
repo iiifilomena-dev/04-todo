@@ -51,10 +51,10 @@ git remote add origin https://github.com/iiifilomena-dev/webpack-starter.git
 git branch -M main
 
 (Sube todos los cambios hacia el repositorio)
-git push -u origin master
+git push -u origin master o git push -u origin main
 
 (Si fallara la autenticación, lo que se puede hacer para resolver es esto)
-git push -f origin master
+git push -f origin master o git push -f origin main
 
 Especial: git log (Muestra lo que fuimos haciendo, muy bueno es una perlita)
 
