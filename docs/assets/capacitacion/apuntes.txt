@@ -51,14 +51,19 @@ git remote add origin https://github.com/iiifilomena-dev/webpack-starter.git
 git branch -M main
 
 (Sube todos los cambios hacia el repositorio)
-git push -u origin master
+git push -u origin master o git push -u origin main
 
 (Si fallara la autenticación, lo que se puede hacer para resolver es esto)
-git push -f origin master
+git push -f origin master o git push -f origin main
 
 Especial: git log (Muestra lo que fuimos haciendo, muy bueno es una perlita)
 
 Agregar un archivo README.md con las especificaciones necesarias
+
+github Pages: usar el hosting de github para desplegar páginas web que solamente usen html 5, css y js
+
+a) La carpeta dist debe ser renombrada con el nombre docs (Esto lo exige github)
+b) ejecutar: git add . (Para que git empiece a darle seguimiento)
 
 
 1) Instalador para ofuscar css
@@ -85,3 +90,6 @@ Instalación: npm install --save-dev babel-loader @babel/core
 a) Es necesario crear: Create babel.config.json configuration file
 b) Instalar: npm install @babel/preset-env --save-dev
 
+Local Storage y Session Storage
+
+localStorage.setItem('mi-key', 'ABC123');

@@ -24,7 +24,12 @@ d) Para hacer el backup el comando es: git add .
 Este comando le dice a git le dice que necesito que todos los archivos modificados desde
 el ultimo commit, preparate para tomarles una foto. Para poderla recuperar en un futuro.
 
-e) Para materializar el commit el comando es: git commit -m "Mi primer commit"
+e) Para materializar el commit el comando es: git commit -m "Mi primer commit".
+   e.1) Crear el archivo dist: npm run build
+   e.2) Si existiera una carpeta docs, borrarla y renombrar la carpeta dist a docs
+   e.3) Como ya tengo cambios lo que hay que hacer es nuevamente:
+        e.3.1) git add .
+        e.3.2) git commit -m "Se agrega carpeta docs"
 
 f) Para hacer la recuperación: git checkout -- . (Es como si fuera el update del Tortoise)
 
