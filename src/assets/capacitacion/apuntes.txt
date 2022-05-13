@@ -90,3 +90,6 @@ Instalación: npm install --save-dev babel-loader @babel/core
 a) Es necesario crear: Create babel.config.json configuration file
 b) Instalar: npm install @babel/preset-env --save-dev
 
+Local Storage y Session Storage
+
+localStorage.setItem('mi-key', 'ABC123');
